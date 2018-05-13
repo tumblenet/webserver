@@ -1,11 +1,12 @@
 {
   "name": "webserver",
   "version": "1.0.0",
-  "description": "",
+  "description": "webserver",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "repository": "tumblenet/webserver",
+  "author": "tumble1999",
   "license": "ISC"
 }
