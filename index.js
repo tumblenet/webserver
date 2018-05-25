@@ -1,7 +1,7 @@
 const http = require('http');
 
 function setupServer(app, port=3000) {
-  if (global.tnserver) {
+  if (global.tnserver != undefined) {
     return global.tnserver;
   }
   port = process.env.PORT || port;
